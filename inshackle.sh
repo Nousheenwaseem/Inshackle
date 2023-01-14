@@ -274,7 +274,12 @@ done
 
 get_story() {
 
-default_user=$user
+default_user=$user#instagram_private_apihttps://www.instagram.com/%s\n
+======================
+
+e[1;77m[\e[0m\e[1;92m+\e[0m\e[1;77m] Instagram: \e[0m"
+https://www.instagram.com/%s\n
+A Python wrapper for the Instagram private
 
 read -p $'\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;93m Account (leave it blank to use your account): \e[0m' user_account
 user_account="${user_account:-${default_user}}"
@@ -650,7 +655,12 @@ unfollower
 
 else
 
-printf "\e[1;93m[!] Invalid Option!\e[0m\n"
+printf "\e[1;93m[!] instagram_private_apihttps://www.instagram.com/%s\n
+======================
+
+e[1;77m[\e[0m\e[1;92m+\e[0m\e[1;77m] Instagram: \e[0m"
+https://www.instagram.com/%s\n
+A Python wrapper for the Instagram private]!\e[0m\n"
 sleep 2
 menu
 
